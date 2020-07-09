@@ -9,10 +9,13 @@ suite('Unit Tests', function(){
     /** assert.fail() will always fail. Change it into something more useful... **/
   
     /** 1 - Use assert.isNull() or assert.isNotNull() to make the tests pass. **/
-    test('#isNull, #isNotNull', function(){
-      assert.isNull(null, 'this is an optional error description - e.g. null is null');
-      assert.isNotNull( 1, '1 is not null');
-    });
+   test('#isNull, #isNotNull', function() {
+  assert.isNull(
+    null,
+    'this is an optional error description - e.g. null is null'
+  );
+  assert.isNotNull(1, '1 is not null');
+});
   
     /** 2 - Use assert.isDefined() or assert.isUndefined() to make the tests pass. **/
     test('#isDefined, #isUndefined', function(){
